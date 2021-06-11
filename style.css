@@ -1,0 +1,42 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+body {
+  background-color: gray;
+}
+.container {
+  margin-left: 25%;
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  width: 640px;
+  height: 360px;
+  position: absolute;
+  border-radius: 15px;
+}
+.controles {
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+}
+.barra {
+  background-color: black;
+  opacity: 0;
+  padding: 5px;
+  border-radius: 15px;
+}
+.barra:hover {
+  opacity: 0.6;
+}
+.btn2 {
+  float: right;
+  padding-right: 2px;
+}
+img:hover {
+  cursor: pointer;
+  background-color: #ffffffbb;
+  border-radius: 10px;
+}
+img {
+  padding: 2px;
+}

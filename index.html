@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="./assets/music.svg">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matuê - Máquina do Tempo</title>
+</head>
+<body>
+    <div class="container"> <!-- Imagem no background -->
+        <audio id="music" src="./assets/Matue - Máquina do tempo.wav"></audio>
+        <div class="controles"> <!-- Arrumando os controles para ficarem na parte de baixo da tela -->
+           <div class="barra">
+            <img onclick="play()" class="btn" src="./assets/play.svg">
+            <img onclick="pause()" class="btn" src="./assets/pause.svg">
+            <img onclick="alto()" class="btn2" src="./assets/volume-2.svg">
+            <img onclick="medio()" class="btn2" src="./assets/volume-1.svg">
+            <img onclick="mute()" class="btn2" src="./assets/volume.svg">
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
